@@ -6,6 +6,12 @@ gem 'rails', '4.0.2'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+gem 'httparty'
+gem 'redis'
+gem 'sidekiq'
+gem 'sidekiq-failures'
+gem 'sinatra', '>= 1.3.0', :require => nil
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
